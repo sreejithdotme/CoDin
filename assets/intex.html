@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compactable" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width , initial-scale=1.0"/>
+        <title>My PortFolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="media.css">
+    </head>
+    <body>
+        <div class="theme-toggle" onclick="toggleTheme()">
+            <img src="./img/dark-mode.png" 
+        id="dark1" alt="Dark-Mode" >
+    </div>
+        <nav id="desktop-nav">
+            <div class="logo">Sreejith G</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav> 
+        <nav id="hamburger-nav">
+            <div class="logo">Sreejith G</div>
+            <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about"  onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience"  onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#project"  onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+            </div>
+        </nav>
+        <section id="profile">
+            <div class="section_pic-container">
+                <img src="./img/Profilepic-modified.png" alt="Sreejith G Profile Pic"/>
+            </div>
+            <div class="section_text">
+                <p class="section_text_p1">Hello I'm</p>
+                <h1 class="title">Srejith G</h1>
+                <P class="section_text_p2">Machine Learning Enthusiast</P>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="window.open('./img/Sreejith_Resume.pdf')">
+                        My Resume
+                    </button>
+                    <button class="btn btn-color-1" onclick="location.href='#contact'"> 
+                        Contact
+                    </button>
+                </div>
+                <div id="social-containers">
+                    <img 
+                    src="./img/linkedin-logo.png" alt="My LinkedIn Profile" 
+                    class="icon" onclick="location.href='https://www.linkedin.com/in/sreejith-g-113307263/'"/> 
+                    <img 
+                    src="./img/GitHub.png" alt="GitHub Profile" 
+                    class="icon" onclick="location.href='https://github.com/sreejithdotme'"/> 
+                </div>
+            </div>
+        </section>
+        <section id="about"><br><br>
+            <h4><p class="section_text_p1">Get To Know More</p></h4>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+                <div class="section_pic-container">
+                    <img src="./img/blacknwhit - Copy.png" alt="" class="about-pic"/>
+                </div>
+                <div class="about- ">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img src="./img/graduation.png" alt="Education icon" 
+                            class="icon" />
+                            <h3>Education</h3>
+                            <p>B.Sc. Computer Science <br/>M.Sc. Computational Biology And Bioinformatics</p>
+                        </div>
+                        <div class="details-container">
+                            <img src="./img/satisfaction.png" alt="Experience icon" 
+                            class="icon" />
+                            <h3>Experience</h3>
+                            <p>Working With Machine Learning Models To Enhance My Skills</p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p>Highly motivated and skilled Computer Science graduate passionate about developing innovative software 
+                            solutions. Proficient in various programming languages, including C++, Python, PHP, MySQL, and JavaScript, 
+                            with experience in developing web applications and designing databases. Eager to continue developing 
+                            machine learning models for solving problems by interpreting relevant data </p>
+                    </div>
+                </div>
+            </div>
+            <img src="./img/down.png" alt="Arrow icon" 
+            class="icon arrow" 
+            onclick="location.href='#about'"/>
+        </section>
+        <section id="experience">
+            <p class="section_text_p1">Explore My</p>
+            <h1 class="title">Experience</h1>
+            <div class="experience-details-conatiner">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Experienced In</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./img/verify.png" 
+                                alt="Experience Icon" class="icon"/>
+                                <div> <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                            </article>
+                            <article>
+                                <img src="./img/verify.png" 
+                                alt="Experience Icon" class="icon"/>
+                                <div> <h3>Python</h3>
+                                <p>Intermediate</p>
+                            </div>
+                            </article>
+                            <article>
+                                <img src="./img/verify.png" 
+                                alt="Experience Icon" class="icon"/>
+                                <div> <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                            </article>
+                            <article>
+                                <img src="./img/verify.png" 
+                                alt="Experience Icon" class="icon"/>
+                                <div> <h3>PHP</h3>
+                                <p>Experienced</p>
+                            </div>
+                            </article>
+                            <article>
+                                <img src="./img/verify.png" 
+                                alt="Experience Icon" class="icon"/>
+                                <div> <h3>JavaScript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                            </article>
+                            <article>
+                                <img src="./img/verify.png" 
+                                alt="Experience Icon" class="icon"/>
+                                <div> <h3>Machine Learning</h3>
+                                <p>Intermediate</p>
+                            </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="details-container">
+                        <h2 class="experience-sub-title">Packages</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./img/verify.png" 
+                                alt="Experience Icon" class="icon"/>
+                                <div> <h3>TensorFlow</h3>
+                                <p>Intermediate</p>
+                            </div>
+                            </article>
+                            <article>
+                                <img src="./img/verify.png" 
+                                alt="Experience Icon" class="icon"/>
+                                <div> <h3>Keras</h3>
+                                <p>Intermediate</p>
+                            </div>
+                            </article>
+                            <article>
+                                <img src="./img/verify.png" 
+                                alt="Experience Icon" class="icon"/>
+                                <div> <h3>Scikit-Learn</h3>
+                                <p>Intermediate</p>
+                            </div>
+                            </article>
+                            <article>
+                                <img src="./img/verify.png" 
+                                alt="Experience Icon" class="icon"/>
+                                <div> <h3>NLTK</h3>
+                                <p>Beginner</p>
+                            </div>
+                            </article>
+                            <article>
+                                <img src="./img/verify.png" 
+                                alt="Experience Icon" class="icon"/>
+                                <div> <h3>NumPy</h3>
+                                <p>Beginner</p>
+                            </div>
+                            </article>
+                            <article>
+                                <img src="./img/verify.png" 
+                                alt="Experience Icon" class="icon"/>
+                                <div> <h3>PyTorch</h3>
+                                <p>Beginner</p>
+                            </div>
+                            </article>
+                            </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="./img/down.png" alt="Arrow icon" 
+            class="icon arrow" 
+            onclick="location.href='#experience'"/>
+        </section>
+        <section id="project">
+            <p class="section_text_p1">My Projects</p>
+            <h1 class="title">Projects</h1>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./img/output-onlinepngtools.png" 
+                    alt="Project 1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project One</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/sreejithdotme'"/> 
+                        GitHub
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/sreejithdotme'"/> 
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+                <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./img/971.png" 
+                    alt="Project 2" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project Two</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/sreejithdotme'"/> 
+                        GitHub
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/sreejithdotme'"/> 
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+                <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./img/9067498.jpg" 
+                    alt="Project 3" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project Three</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/sreejithdotme'"/> 
+                        GitHub
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/sreejithdotme'"/> 
+                        Live Demo
+                    </button>
+                </div>
+                </div>
+            </div>
+            <img src="./img/down.png" alt="Arrow icon" 
+            class="icon arrow" 
+            onclick="location.href='#project'"/>
+        </section>
+        <section id="contact">
+            <p class="section_text_p1">Get In Touch</p>
+            <h1 class="title">ContactMe</h1>
+            <div class="contact-info-upper-container">
+                <div class="contact-info-container">
+            <img src="./img/email.png"
+            alt="Email Icon" class="icon contact-icon"/>
+        <p><a href="mailto:sreejithgopan20@gmail.com">E-mail</a></p>
+            </div>
+                <div class="contact-info-container">
+            <img src="./img/linkedin-logo.png"
+            alt="LinkedIn Icon" class="icon contact-icon"/>
+        <p><a href="https://shorturl.at/cosX9">LinkedIn</a></p>
+            </div>
+        </div>
+        </section>
+        <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#project">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p>CopyRight &#169; 2024 Sreejith All Rights Resereved.</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
